@@ -1,0 +1,105 @@
+body {
+  background-color: rgb(253, 251, 251);
+  margin-left: 30px;
+}
+
+#cabecalho {
+  background-color: green;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 150px;
+}
+
+#titulo {
+  color: white;
+  text-align: center;
+  text-shadow: 5px 5px 10px white
+}
+
+.eu {
+  color: white;
+  text-align: center;
+  text-shadow: 5px 5px 10px white
+}
+
+#click {
+  list-style: none;
+}
+
+nav li {
+  display: inline;
+  margin-right: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: bold;
+}
+
+#menu {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+#minha_foto {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px black;
+}
+
+.image-conteiner {
+  margin-left: 30px;
+}
+
+.alinhamento {
+  display: flex;
+  margin-top: 200px;
+}
+
+.listas-lado {
+  font-family: monospace;
+  display: flex;
+  line-height: 25px;
+  text-shadow: 5px 5px 10px black;
+}
+
+#rodape {
+  text-align: center;
+  padding: 15px;
+  right: 0;
+  left: auto;
+  background-color: green;
+  bottom: 0;
+  font-size: large;
+}
+
+.lado-esquerdo {
+  width: 30%;
+  font-style: italic;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  background-color: darkolivegreen;
+  border-radius: 10px 10px 0px
+}
+
+.lado-direito {
+  background-color: rgb(141, 161, 106);
+  width: 70%;
+  padding-bottom: 1px;
+  border-radius: 10px 10px 0px
+}
+
+.tittle-table {
+  font-size: 25px;
+}
+
+table {
+  background-color: rgb(127, 216, 167);
+  margin-left: 200px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px black;
+}
